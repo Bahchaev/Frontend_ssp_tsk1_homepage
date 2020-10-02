@@ -1,18 +1,7 @@
-.deviceCard {
-    display: flex;
-    width: 345px;
-    height: 690px;
-    margin: 0 auto;
-    object-fit: contain;
-    padding-top: 15px;
-    background: url("./img/device.png") center no-repeat;
-    background-size: 135%;
+.deviceBG {
+    position: absolute;
 }
 
-.deviceAppScreen {
-    width: 312px;
-    height: 979px;
-    margin: 0 auto;
-    background: url("./img/app-screen.png") center no-repeat;
-    background-size: 100%;
+.deviceScreen {
+    position: absolute;
 }
