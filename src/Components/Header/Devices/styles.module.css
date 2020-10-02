@@ -4,6 +4,18 @@
 
 }
 
-.small {
-    transform: scale(0.7)
+.leftDevice {
+    transform: scale(0.7);
+
+
+}
+
+.centerDevice {
+
+
+
+}
+
+.rightDevice {
+    transform: scale(0.7);
 }

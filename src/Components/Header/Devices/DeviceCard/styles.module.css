@@ -1,7 +1,12 @@
 .deviceBG {
-    position: absolute;
+    margin-top: -60px;
+    overflow:hidden
 }
 
 .deviceScreen {
     position: absolute;
+    top: 15px;
+    left: 80px;
+    z-index: 1;
+    overflow:hidden
 }
