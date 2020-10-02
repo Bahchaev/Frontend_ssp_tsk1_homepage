@@ -1,0 +1,9 @@
+.devices {
+    display: flex;
+    justify-content: center;
+
+}
+
+.small {
+    transform: scale(0.7)
+}

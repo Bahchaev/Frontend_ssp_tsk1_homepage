@@ -1,0 +1,54 @@
+.headerCard {
+    max-width: 611px;
+    min-height: 223px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.headerCardTitle {
+    font-family: Quicksand, serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.67;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+}
+
+.headerCardText {
+    font-family: Quicksand, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: center;
+    color: #929292;
+}
+
+.headerCardButtons {
+    justify-content: space-around;
+}
+
+.downloadButton,
+.freeTrialButton {
+    width: 165px;
+    height: 50px;
+    border-radius: 25px !important;
+
+    font-family: Quicksand, serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: center;
+
+}
