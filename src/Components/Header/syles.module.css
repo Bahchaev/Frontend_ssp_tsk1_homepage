@@ -1,6 +1,6 @@
 .header {
     max-width: 1920px;
-    height: 1043px;
+    min-height: 1043px;
     background-image: url("./img/header-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -8,6 +8,15 @@
     margin: 0 auto;
 }
 
+.navBarContainer {
+    margin-top: 0;
+}
+
 .headerCardContainer {
     margin-top: 106px;
+}
+
+.devicesContainer {
+    margin-top: 20px;
+
 }

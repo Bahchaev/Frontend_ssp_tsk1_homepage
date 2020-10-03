@@ -7,11 +7,13 @@ import Devices from "./Devices";
 function Header() {
     return (
         <div className={styles.header}>
-            <NavBar/>
+            <div className={styles.navBarContainer}>
+                <NavBar/>
+            </div>
             <div className={styles.headerCardContainer}>
                 <HeaderCard/>
             </div>
-            <div className={styles.headerCardContainer}>
+            <div className={styles.devicesContainer}>
                 <Devices/>
             </div>
         </div>

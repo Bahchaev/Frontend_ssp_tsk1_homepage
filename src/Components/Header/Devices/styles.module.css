@@ -1,21 +1,43 @@
 .devices {
     display: flex;
     justify-content: center;
+    height: 594px;
+    overflow: hidden;
+    position: relative;
+}
 
+.leftDevice,
+.rightDevice {
+    transform-origin: top center;
+    transform: scale(0.74);
+    margin-top: 87px;
+    position: absolute;
+    z-index: 0;
 }
 
 .leftDevice {
-    transform: scale(0.7);
-
-
-}
-
-.centerDevice {
-
-
-
+    left: 25%
 }
 
 .rightDevice {
-    transform: scale(0.7);
+    right: 25%
+}
+
+.centerDevice {
+    z-index: 1;
+}
+
+.devicesIMG {
+    position: absolute;
+}
+
+.scrollDown {
+    position: relative;
+    top: -35px;
+    left: 50%;
+    z-index: 3;
+}
+
+.scrollDown:hover {
+    top: -25px;
 }

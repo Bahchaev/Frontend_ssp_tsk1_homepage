@@ -1,11 +1,14 @@
+.deviceCard {
+    position: relative;
+}
+
 .deviceBG {
-    margin-top: -60px;
-    overflow:hidden
+
 }
 
 .deviceScreen {
     position: absolute;
-    top: 15px;
+    top: 75px;
     left: 80px;
     z-index: 1;
     overflow:hidden
