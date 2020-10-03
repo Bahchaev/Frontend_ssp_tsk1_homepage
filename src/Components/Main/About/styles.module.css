@@ -1,0 +1,30 @@
+.aboutCardContainer {
+    min-height: 1190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.strafeRight {
+    display: flex;
+    justify-content: center;
+    padding-left: 35px
+}
+
+.strafeLeft {
+    display: flex;
+    justify-content: center;
+    padding-right: 35px
+}
+
+@media screen and (max-width: 1050px){
+    .strafeLeft,
+    .strafeRight {
+        padding: 0;
+    }
+    .aboutCardContainer {
+        height: auto;
+        min-height: 546px;
+    }
+}

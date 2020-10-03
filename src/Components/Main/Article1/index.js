@@ -5,7 +5,7 @@ import icon1 from "./img/icon1.png"
 import icon2 from "./img/icon2.png"
 import icon3 from "./img/icon3.png"
 
-function Article1() {
+function Features() {
 
     let header1 = "Analysis";
     let header2 = "Clean Design";
@@ -23,4 +23,4 @@ function Article1() {
     )
 }
 
-export default Article1
+export default Features

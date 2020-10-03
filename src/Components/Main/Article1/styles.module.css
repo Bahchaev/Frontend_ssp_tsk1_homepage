@@ -14,18 +14,19 @@
 
 .card1Container,
 .card3Container{
-    top: -7.5px
+    top: -7.5px;
 }
 
 .card2Container{
-    top: 42.5px
+    top: 42.5px;
 }
 
 @media screen and (max-width: 1260px) {
     .card1Container,
     .card2Container,
     .card3Container {
-        top: 0
+        top: 0;
+        padding: 8px 0;
     }
 }
 
