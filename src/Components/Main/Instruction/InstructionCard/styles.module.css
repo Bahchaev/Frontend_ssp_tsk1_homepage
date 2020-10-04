@@ -1,0 +1,38 @@
+.instructionCardContainer {
+    min-height: 216px;
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1;
+    padding: 0 47px;
+}
+
+.instructionCardImg {
+    width: 100px;
+    height: 100px;
+}
+
+.instructionCardHeader {
+    font-family: Quicksand, serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #333333;
+}
+
+.instructionCardText {
+    font-family: Quicksand, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: center;
+    color: #929292;
+}

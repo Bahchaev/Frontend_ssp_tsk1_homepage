@@ -1,0 +1,92 @@
+.instructionContainer {
+    min-height: 646px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5fcfd;
+}
+
+.headerBg {
+    position: absolute;
+    width: 108px;
+    height: 73px;
+}
+
+.headerBgLeft {
+    position: absolute;
+    top: 8px;
+    left: 0;
+    z-index: -1;
+}
+
+.headerBgRight {
+    position: absolute;
+    z-index: -1;
+    left: 43px
+}
+
+.textContainer {
+    position: relative;
+    margin: 0 auto;
+    max-width: 731px;
+    min-height: 126px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.instructionHeader {
+    font-family: Quicksand, serif;
+    font-size: 32px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: center;
+    color: #333333;
+    margin-top: 21px;
+}
+
+.instructionText {
+    margin-top: 35px;
+    font-family: Quicksand, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: center;
+    color: #929292;
+}
+
+.instructionCards {
+    position: relative;
+    max-width: 1170px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 47px;
+}
+
+.line {
+    position: absolute;
+    top: 50px;
+    width: 680px;
+    padding: 0;
+    height: 0;
+    border: none;
+    border-top: 2px dashed #0f7bff;
+    margin: 0;
+    justify-self: center;
+}
+
+@media screen and (max-width: 1170px) {
+        .line {
+            display: none;
+        }
+}
