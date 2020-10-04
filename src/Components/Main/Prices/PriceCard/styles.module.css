@@ -1,0 +1,85 @@
+.priceCardContainer {
+    max-width: 360px;
+    min-height: 576px;
+    padding: 0 97px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 0 68px 0 rgba(165, 165, 165, 0.25);
+}
+
+.priceCardImg {
+    width: 100px;
+    height: 100px;
+}
+
+.priceCardHeader {
+    font-family: Quicksand, serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #333333;
+}
+
+.priceCardLine {
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    width: 165px;
+    margin: 0;
+}
+
+.priceCardText {
+    font-family: Quicksand, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    color: #929292;
+}
+
+.priceCardPrice {
+    font-family: Quicksand, serif;
+    font-size: 32px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0f7bff;
+}
+
+.priceCardPrice p {
+    display: inline;
+}
+
+.priceCardPrice p:first-child {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.priceCardButton {
+    height: 50px;
+    width: 165px;
+    font-family: Quicksand, serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50px;
+}

@@ -1,0 +1,16 @@
+.priceCardTextContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 160px;
+
+    font-family: Quicksand, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    color: #929292;
+}
