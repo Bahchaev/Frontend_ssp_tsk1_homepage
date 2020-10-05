@@ -20,7 +20,7 @@ function PricingPlan({setPeriod}) {
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Lorem ipsum dolor sit amet.
             </div>
-            <div>
+            <div className={styles.pricingPlanButtonField}>
                 <ButtonGroup toggle>
                     {radios.map((radio, idx) => (
                         <ToggleButton

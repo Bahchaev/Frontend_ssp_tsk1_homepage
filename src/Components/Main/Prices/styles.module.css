@@ -1,10 +1,16 @@
 .pricesContainer {
     min-height: 836px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.layout {
-    margin: 0 15px;
+.priceCardField {
+    max-width: 850px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }

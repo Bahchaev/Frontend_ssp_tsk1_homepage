@@ -21,19 +21,15 @@ function Prices() {
             setPriceStandard("19.00");
             setPricePremium("49.00")
         }
-    }, [period]) ;
+    }, [period]);
 
 
     return (
 
         <div className={styles.pricesContainer}>
-            <div className={styles.layout}>
-                <PricingPlan setPeriod={setPeriod}/>
-            </div>
-            <div className={styles.layout}>
+            <PricingPlan setPeriod={setPeriod}/>
+            <div className={styles.priceCardField}>
                 <PriceCard img={standardImg} header={"Standard"} text={<PriceCardText/>} price={priceStandard}/>
-            </div>
-            <div className={styles.layout}>
                 <PriceCard img={premiumImg} header={"Premium"} text={<PriceCardText/>} price={pricePremium}/>
             </div>
         </div>
