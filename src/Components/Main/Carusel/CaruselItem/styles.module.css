@@ -1,7 +1,12 @@
 .caruselItemContainer {
-    position: relative;
     width: 360px;
     min-height: 215px;
     border: 1px solid red;
     margin-right: 30px;
+}
+
+@media screen and (max-width: 1260px){
+    .caruselItemContainer {
+
+    }
 }

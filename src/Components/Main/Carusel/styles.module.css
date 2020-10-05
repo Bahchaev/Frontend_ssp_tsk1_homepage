@@ -7,6 +7,26 @@
     align-items: center;
 }
 
+.caruselField {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.caruselHeader {
+    margin-bottom: 44px;
+    font-family: Quicksand, serif;
+    font-size: 32px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.13;
+    letter-spacing: normal;
+    color: #333333;
+}
+
 .caruselImg {
     width: 752px;
     height: 608px;
@@ -14,13 +34,62 @@
 }
 
 .caruselItemsField {
+    width: 1900px;
     position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+    transition: left 0.5s;
 }
+
+.caruselButton input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.caruselButtonField {
+    margin-top: 50px;
+}
+
+.caruselButton div {
+    width: 20px;
+    height: 10px;
+    background-color: #d4d4d4;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: width 0.5s;
+}
+
+.caruselButton div:hover {
+    width: 30px;
+    background-color: #0f7bff;
+    transition: width 0.5s;
+}
+
+.caruselButton input:checked + div {
+    width: 30px;
+    background-color: #0f7bff;
+    transition: width 0.5s;
+}
+
+@media screen and (max-width: 1260px){
+    .caruselImg {
+        display: none;
+    }
+
+    .caruselField {
+        align-items: center;
+    }
+
+    .caruselItemsField {
+        justify-content: center;
+    }
+}
+
+
 
 
 
