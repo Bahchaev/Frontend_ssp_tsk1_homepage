@@ -1,0 +1,27 @@
+.caruselContainer {
+    background-color: #f5fcfd;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.caruselImg {
+    width: 752px;
+    height: 608px;
+    margin-right: 127px;
+}
+
+.caruselItemsField {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+
