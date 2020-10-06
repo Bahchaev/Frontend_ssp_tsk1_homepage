@@ -34,14 +34,23 @@
 }
 
 .caruselItemsField {
-    width: 1900px;
-    position: relative;
+    overflow: hidden;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
-    transition: left 0.5s;
+}
+
+.viewField {
+    width: 1900px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .caruselButton input {
@@ -85,7 +94,7 @@
     }
 
     .caruselItemsField {
-        justify-content: center;
+        margin-left: 50%;
     }
 }
 
