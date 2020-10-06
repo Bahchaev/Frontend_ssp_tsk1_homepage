@@ -7,17 +7,17 @@ function Carusel() {
 
     const caruselItemsArray = [
         {
-            header: "Raisa Moni",
+            header: "Raisa Moni 1",
             underHeader: "Envato Customer",
             text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.",
         },
         {
-            header: "Raisa Moni",
+            header: "Raisa Moni 2",
             underHeader: "Envato Customer",
             text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.",
         },
         {
-            header: "Raisa Moni",
+            header: "Raisa Moni 3",
             underHeader: "Envato Customer",
             text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etamet.",
         }
@@ -26,9 +26,9 @@ function Carusel() {
 
 
     const [activeItem, setActiveItem] = useState(0);
-    const [position, setPosition] = useState(0)
+    const [position, setPosition] = useState(0);
     const activeItemRef = useRef(null);
-    const vieFieldRef = useRef(null)
+    const vieFieldRef = useRef(null);
 
     useEffect(() => {
         setPosition(activeItem * -390 + "px")
@@ -47,7 +47,7 @@ function Carusel() {
                         const isActive = (index === activeItem);
                         return (
                             <div className={`styles.${isActive ? "active" : ""}`}  ref={isActive ? activeItemRef : null} id={`item-${index}`} key={`item-${index}`} >
-                                <CaruselItem index={index}/>
+                                <CaruselItem index={index} header={item.header} underHeader={item.underHeader} text={item.text}/>
                             </div>
                         )
                     })}
@@ -57,9 +57,10 @@ function Carusel() {
 
                 <div className={styles.caruselButtonField}>
                     {caruselItemsArray.map((item, index) => {
+                        const isActive = (index === activeItem);
                         return (
                             <label className={styles.caruselButton}>
-                                <input type={"radio"} name={"caruselButton"} id={index} onClick={() => setActiveItem(index)}/>
+                                <input type={"radio"} name={"caruselButton"} checked={isActive} onClick={() => setActiveItem(index)}/>
                                 <div/>
                             </label>
                         )

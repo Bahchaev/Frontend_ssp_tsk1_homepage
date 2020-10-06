@@ -1,0 +1,13 @@
+.bigNewsCardContainer {
+    max-width: 556px;
+    min-height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-right: 30px;
+}
+
+.bigNewsCardImg {
+    width: 100%;
+}

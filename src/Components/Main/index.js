@@ -5,6 +5,7 @@ import styles from "../Header/syles.module.css";
 import Instruction from "./Instruction";
 import Prices from "./Prices";
 import Carusel from "./Carusel";
+import News from "./News";
 
 function Main() {
     return (
@@ -14,6 +15,7 @@ function Main() {
             <Instruction/>
             <Prices/>
             <Carusel/>
+            <News/>
         </div>
     );
 }

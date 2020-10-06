@@ -8,6 +8,7 @@
 }
 
 .caruselField {
+    margin: 30px 0;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -34,7 +35,8 @@
 }
 
 .caruselItemsField {
-    overflow: hidden;
+    min-height: 215px;
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -43,7 +45,6 @@
 }
 
 .viewField {
-    width: 1900px;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -51,6 +52,7 @@
     flex-wrap: nowrap;
     justify-content: flex-start;
     align-items: center;
+    transition: left 0.5s;
 }
 
 .caruselButton input {
@@ -84,22 +86,37 @@
     transition: width 0.5s;
 }
 
-@media screen and (max-width: 1260px){
+@media screen and (max-width: 1410px){
+
+    .caruselContainer {
+        justify-content: center;
+    }
+
     .caruselImg {
         display: none;
     }
 
     .caruselField {
         align-items: center;
+        width: 100%;
     }
 
     .caruselItemsField {
-        margin-left: 50%;
+        width: 50%;
+        align-self: flex-end;
+        position: relative;
+    }
+
+    .viewField {
+        margin-left: -180px;
+        position: absolute;
+        z-index: 4;
+    }
+
+    .caruselHeader {
+        text-align: center;
     }
 }
-
-
-
 
 
 
