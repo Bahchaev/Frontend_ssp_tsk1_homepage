@@ -7,6 +7,7 @@ import Prices from "./Prices";
 import Carusel from "./Carusel";
 import News from "./News";
 import Trial from "./Trial";
+import Subscribe from "./Subscribe";
 
 function Main() {
     return (
@@ -18,6 +19,7 @@ function Main() {
             <Carusel/>
             <News/>
             <Trial/>
+            <Subscribe/>
         </div>
     );
 }
