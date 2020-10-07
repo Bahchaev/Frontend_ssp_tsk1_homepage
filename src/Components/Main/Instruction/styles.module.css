@@ -1,10 +1,13 @@
 .instructionContainer {
+    position: relative;
     min-height: 646px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #f5fcfd;
+    z-index: -2;
+    padding: 10px 0;
 }
 
 .headerBg {
@@ -22,8 +25,8 @@
 
 .headerBgRight {
     position: absolute;
+    left: 43px;
     z-index: -1;
-    left: 43px
 }
 
 .textContainer {

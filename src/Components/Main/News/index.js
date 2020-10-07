@@ -3,7 +3,10 @@ import styles from "./styles.module.css";
 import headerStyles from "../Instruction/styles.module.css"
 import headerBg from "../Instruction/Img/header_bg.png";
 import BigNewsCard from "./BigNewsCard";
-import img1 from "./img/news-1.png"
+import imgNews1 from "./img/news-1.png"
+import imgNews2 from "./img/news-2.png"
+import imgNews3 from "./img/news-3.png"
+import imgNews4 from "./img/news-4.png"
 import SmallNewsCard from "./SmallNewsCard";
 
 
@@ -11,7 +14,7 @@ function News() {
 
     const news = [
         {
-            img: img1,
+            img: imgNews1,
             header: "The master bedroom suite is phenomenally\n" +
                 " spacious",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, " +
@@ -19,7 +22,19 @@ function News() {
                 "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
         },
         {
-            img: img1,
+            img: imgNews2,
+            header: "The master bedroom suite is phenomenally\n" +
+                " spacious",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+        },
+        {
+            img: imgNews3,
+            header: "The master bedroom suite is phenomenally\n" +
+                " spacious",
+            text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
+        },
+        {
+            img: imgNews4,
             header: "The master bedroom suite is phenomenally\n" +
                 " spacious",
             text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod."
@@ -42,12 +57,14 @@ function News() {
             </div>
 
             <div className={styles.newsContentContainer}>
-                <BigNewsCard img={news[0].img} text={news[0].text} header={news[0].header}/>
+                <div className={styles.bigNewsContainer}>
+                    <BigNewsCard img={news[0].img} text={news[0].text} header={news[0].header}/>
+                </div>
 
                 <div className={styles.smallNewsContainer}>
                     <SmallNewsCard img={news[1].img} text={news[1].text} header={news[1].header}/>
-                    <SmallNewsCard img={news[1].img} text={news[1].text} header={news[1].header}/>
-                    <SmallNewsCard img={news[1].img} text={news[1].text} header={news[1].header}/>
+                    <SmallNewsCard img={news[2].img} text={news[2].text} header={news[2].header}/>
+                    <SmallNewsCard img={news[3].img} text={news[3].text} header={news[3].header}/>
                 </div>
             </div>
 

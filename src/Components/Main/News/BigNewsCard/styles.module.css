@@ -1,13 +1,49 @@
 .bigNewsCardContainer {
     max-width: 556px;
-    min-height: 530px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: flex-start;
-    margin-right: 30px;
 }
 
 .bigNewsCardImg {
     width: 100%;
+    align-self: center;
+    margin-bottom: 40px;
+}
+
+.bigNewsCardHeader {
+    margin-bottom: 24px;
+    font-family: Quicksand, serif;
+    font-size: 24px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #0f7bff;
+}
+
+.bigNewsCardText {
+    margin-bottom: 37px;
+    font-family: Quicksand, serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    text-align: left;
+    color: #929292;
+}
+
+.bigNewsCardLink {
+    font-family: Quicksand, serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.69;
+    letter-spacing: normal;
+    color: #0f7bff;
 }
