@@ -4,10 +4,6 @@ import styles from "./styles.module.css"
 
 function Subscribe() {
 
-    const submit = () => {
-        console.log("some post request")
-    };
-
     return (
         <div className={styles.subscribeContainer}>
             <form method={"post"} className={styles.subscribeForm}>
