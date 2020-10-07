@@ -9,6 +9,7 @@
 
 .navBarContainer {
     margin-top: 0;
+    padding: 0 8px;
 }
 
 .headerCardContainer {
@@ -17,5 +18,10 @@
 
 .devicesContainer {
     margin-top: 20px;
+}
 
+@media screen and (max-width: 768px){
+    .headerCardContainer {
+        margin-top: 56px;
+    }
 }
