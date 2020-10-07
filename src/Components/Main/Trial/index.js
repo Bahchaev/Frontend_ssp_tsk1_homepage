@@ -15,8 +15,6 @@ function Trial() {
             <div className={styles.trialButtonContainer}>
                 <Button className={styles.trialButton}>Get Started -></Button>
             </div>
-
-
         </div>
     )
 }

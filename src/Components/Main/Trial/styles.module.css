@@ -3,17 +3,18 @@
     min-height: 336px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     background-color: #f5fcfd;
 }
 
 .trialTextContainer {
+    margin-right: 160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-right: 162px;
 }
 
 .trialHeader {
@@ -65,4 +66,21 @@
     line-height: 1.69;
     letter-spacing: normal;
     color: #ffffff;
+}
+
+@media screen and (max-width: 751px) {
+    .trialTextContainer {
+        margin-right: 0;
+        align-items: center;
+    }
+
+    .trialContainer {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .trialHeader,
+    .trialText {
+        text-align: center;
+    }
 }
