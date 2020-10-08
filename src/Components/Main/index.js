@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "../Header/syles.module.css";
-import Features from "../Main/Article1";
+import Features from "../Main/Features";
 import About from "./About";
 import Instruction from "./Instruction";
 import Prices from "./Prices";
@@ -12,6 +12,7 @@ import Subscribe from "./Subscribe";
 function Main() {
     return (
         <div className={styles.main}>
+            <a name={"features"}/>
             <Features/>
             <About/>
             <Instruction/>

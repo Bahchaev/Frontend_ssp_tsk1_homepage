@@ -3,6 +3,7 @@
     max-width: 1640px;
     margin: 0 auto;
     padding: 0!important;
+    background: none;
 }
 
 .logo {
@@ -43,6 +44,7 @@
     letter-spacing: normal;
     justify-content: flex-end;
     color: #ffffff;
+    margin-left: 25px;
 }
 
 .signUpButtonContainer{

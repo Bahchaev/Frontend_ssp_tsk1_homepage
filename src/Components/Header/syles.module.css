@@ -3,8 +3,12 @@
     background-image: url("./img/header-bg.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: left;
     margin: 0 auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .navBarContainer {
@@ -13,15 +17,11 @@
 }
 
 .headerCardContainer {
-    margin-top: 106px;
+    padding-top: 106px;
 }
 
-.devicesContainer {
-    margin-top: 20px;
-}
-
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .headerCardContainer {
-        margin-top: 56px;
+        padding-top: 56px;
     }
 }

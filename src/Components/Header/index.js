@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "./syles.module.css"
 import NavBar from "./NavBar";
-import HeaderCard from "./HederCard";
+import HeaderCard from "./HeaderCard";
 import Devices from "./Devices";
 
 function Header() {

@@ -1,43 +1,46 @@
 .devices {
     display: flex;
     justify-content: center;
-    height: 594px;
+    height: 571px;
     overflow: hidden;
     position: relative;
-}
-
-.leftDevice,
-.rightDevice {
-    transform-origin: top center;
-    transform: scale(0.74);
-    margin-top: 87px;
-    position: absolute;
-    z-index: 0;
-}
-
-.leftDevice {
-    left: 25%
-}
-
-.rightDevice {
-    right: 25%
-}
-
-.centerDevice {
-    z-index: 1;
+    bottom: -1px;
 }
 
 .devicesIMG {
     position: absolute;
+    top:-24px;
+    z-index: 1;
 }
 
-.scrollDown {
-    position: relative;
-    top: -35px;
-    left: 50%;
-    z-index: 3;
-}
+/*.leftDevice,*/
+/*.rightDevice {*/
+/*    transform-origin: top center;*/
+/*    transform: scale(0.74);*/
+/*    margin-top: 87px;*/
+/*    position: absolute;*/
+/*    z-index: 0;*/
+/*}*/
 
-.scrollDown:hover {
-    top: -25px;
-}
+/*.leftDevice {*/
+/*    left: 25%*/
+/*}*/
+
+/*.rightDevice {*/
+/*    right: 25%*/
+/*}*/
+
+/*.centerDevice {*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.scrollDown {*/
+/*    position: relative;*/
+/*    top: -35px;*/
+/*    left: 50%;*/
+/*    z-index: 3;*/
+/*}*/
+
+/*.scrollDown:hover {*/
+/*    top: -25px;*/
+/*}*/

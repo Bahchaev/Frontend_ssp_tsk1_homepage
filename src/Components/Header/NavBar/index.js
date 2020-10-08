@@ -14,8 +14,8 @@ const NavBar = () => {
             <Navbar.Toggle aria-controls="navMenu"/>
             <Navbar.Collapse id="navMenu">
                 <Nav className={styles.navMenu}>
-                    <Nav.Link href="" className={styles.link}>HOME</Nav.Link>
-                    <Nav.Link href="" className={styles.link}>FEATURES</Nav.Link>
+                    <Nav.Link href="" className={styles.link} >HOME</Nav.Link>
+                    <Nav.Link href="#features" className={styles.link}>FEATURES</Nav.Link>
                     <Nav.Link href="" className={styles.link}>PRICING</Nav.Link>
                     <Nav.Link href="" className={styles.link}>PAGES</Nav.Link>
                 </Nav>

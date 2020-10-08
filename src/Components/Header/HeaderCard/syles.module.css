@@ -1,11 +1,13 @@
 .headerCard {
-    max-width: 611px;
-    min-height: 223px;
+    max-width: 631px;
+    width: 100%;
+    min-height: 243px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     margin: 0 auto;
-
+    padding: 10px;
 }
 
 .headerCardTitle {
@@ -35,7 +37,16 @@
 }
 
 .headerCardButtons {
-    justify-content: space-around;
+    align-self: center;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerCardButtons button {
+    margin: 5px 15px;
 }
 
 .downloadButton,
