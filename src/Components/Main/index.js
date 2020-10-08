@@ -16,8 +16,10 @@ function Main() {
             <Features/>
             <About/>
             <Instruction/>
+            <a name={"pricing"}/>
             <Prices/>
             <Carusel/>
+            <a name={"news"}/>
             <News/>
             <Trial/>
             <Subscribe/>

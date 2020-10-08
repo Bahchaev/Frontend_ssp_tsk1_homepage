@@ -16,6 +16,7 @@ function Header() {
             <div className={styles.devicesContainer}>
                 <Devices/>
             </div>
+            <a href={"#features"} className={styles.scrollDown}/>
         </div>
     )
 }

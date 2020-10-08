@@ -4,7 +4,6 @@ import {Button, Navbar, Nav} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import styles from "./styles.module.css"
 
-
 const NavBar = () => {
     return (
         <Navbar collapseOnSelect expand="md" className={styles.navBar}>
@@ -13,11 +12,14 @@ const NavBar = () => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="navMenu"/>
             <Navbar.Collapse id="navMenu">
-                <Nav className={styles.navMenu}>
-                    <Nav.Link href="" className={styles.link} >HOME</Nav.Link>
-                    <Nav.Link href="#features" className={styles.link}>FEATURES</Nav.Link>
-                    <Nav.Link href="" className={styles.link}>PRICING</Nav.Link>
-                    <Nav.Link href="" className={styles.link}>PAGES</Nav.Link>
+                <Nav
+                    className={styles.navMenu}
+                    activeKey={"homeLink"}
+                >
+                    <Nav.Link href="" className={styles.link} eventKey={"homeLink"}>HOME</Nav.Link>
+                    <Nav.Link href="#features" className={styles.link} eventKey={"featureLink"}>FEATURES</Nav.Link>
+                    <Nav.Link href="#pricing" className={styles.link} eventKey={"pricingLink"}>PRICING</Nav.Link>
+                    <Nav.Link href="#news" className={styles.link} eventKey={"pagesLink"}>PAGES</Nav.Link>
                 </Nav>
                 <div className={styles.signUpButtonContainer}>
                     <Button className={styles.signUpButton}>SIGN UP</Button>

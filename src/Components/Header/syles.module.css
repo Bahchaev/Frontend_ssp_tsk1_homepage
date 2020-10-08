@@ -20,6 +20,22 @@
     padding-top: 106px;
 }
 
+.scrollDown {
+    width: 70px;
+    height: 70px;
+    background-image: url("./img/scrool-down.png");
+    position: absolute;
+    bottom: -35px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.scrollDown:hover {
+    bottom: -45px;
+}
+
 @media screen and (max-width: 768px) {
     .headerCardContainer {
         padding-top: 56px;

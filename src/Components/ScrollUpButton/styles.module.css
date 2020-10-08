@@ -1,0 +1,26 @@
+.scrollUpButton {
+    width: 70px;
+    height: 70px;
+    border: 1px solid #0f7bff;
+    opacity: 0.3;
+    margin: auto;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+}
+
+.scrollUpButtonContainer {
+    max-width: 1920px;
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+}
+
+.scrollUpButton:hover {
+    opacity: 1;
+}
+
+@media  {
+    
+}

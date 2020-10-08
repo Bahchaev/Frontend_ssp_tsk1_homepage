@@ -1,12 +1,6 @@
-import React, {useState} from 'react';
-import DeviceCard from "./DeviceCard";
+import React from 'react';
 import styles from "./styles.module.css"
-import deviceBG from './img/deviceBG.png'
-import centerDeviceScreen from "./img/centerDeviceScreen.png"
-import leftDeviceScreen from "./img/leftDeviceScreen.png"
-import rightDeviceScreen from "./img/rightDeviceScreen.png"
 import allDevices from "./img/allDevices.png"
-import scrollDownButton from "./img/scrool-down.png"
 
 
 function Devices() {
