@@ -119,5 +119,11 @@
     }
 }
 
+@media screen and (max-width: 360px) {
+    .viewField {
+        margin-left: -150px;
+    }
+}
+
 
 

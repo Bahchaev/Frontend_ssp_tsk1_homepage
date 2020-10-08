@@ -2,11 +2,11 @@
     width: 360px;
     height: 215px;
     background-color: white;
-    margin-right: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    margin-right: 30px;
     padding: 40px 20px 40px 30px;
 }
 
@@ -62,4 +62,11 @@
     letter-spacing: normal;
     text-align: left;
     color: #929292;
+}
+
+@media screen and (max-width: 360px) {
+    .caruselItemContainer {
+        width: 300px;
+        margin-right: 90px;
+    }
 }

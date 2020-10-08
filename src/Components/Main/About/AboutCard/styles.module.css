@@ -60,15 +60,18 @@
     color: #0f7bff;
 }
 
-@media screen and (max-width: 950px){
+@media screen and (max-width: 970px){
     .images {
         display: none;
     }
 
     .AboutCardContainer {
+        padding: 10px;
         width: auto;
+        border-radius: 20px;
         max-width: 1050px;
-        box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+        box-shadow: 0 0 5px rgba(0,0,0,0.3), 5px 5px 5px rgba(0,0,0,0.3);;
+
         margin: 20px 10px;
     }
 }
