@@ -30,12 +30,14 @@
 }
 
 .subscribeInputContainer {
+    max-width: 557px;
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    padding: 0 10px
 }
 
 .subscribeInput {
@@ -55,7 +57,7 @@
     letter-spacing: normal;
     text-align: left;
     color: #ffffff;
-    padding-left: 31px;
+    padding-left: 15px;
 }
 
 .subscribeInput::placeholder {

@@ -60,7 +60,7 @@
     margin-right: 8px;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 768px){
     .footerContent {
         flex-direction: column;
         justify-content: space-between;

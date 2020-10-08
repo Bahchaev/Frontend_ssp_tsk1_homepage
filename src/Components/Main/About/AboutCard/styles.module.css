@@ -21,7 +21,6 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
-
 }
 
 .textAreaHeader {
@@ -34,6 +33,7 @@
     letter-spacing: normal;
     text-align: left;
     color: #333333;
+    margin-bottom: 33px;
 }
 
 .textAreaText {
@@ -46,6 +46,7 @@
     letter-spacing: normal;
     text-align: left;
     color: #929292;
+    margin-bottom: 38px;
 }
 
 .textAreaLink {
